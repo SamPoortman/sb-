@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+  display: flex;
+  width: 100%;
+  background: rgb(134, 134, 134);
+  height: 50px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav li {
+  font-size: 1.8rem;
+  padding: 0 2rem 0 1rem;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+h1{
+  position: absolute;
+  top: 200px;
+  right: 700px;
+  font-size: 3rem;
+}
+footer{
+    clear: both;
+    position: relative;
+    margin-top: 858px;
+    background-color: rgb(54, 54, 54);
+}
+footer p{
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+}
